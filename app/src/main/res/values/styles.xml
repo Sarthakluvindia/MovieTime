@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<style name="DatePicker" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">#F7AF42</item>
+    <item name="colorPrimaryDark">#F7AF42</item>
+    <item name="colorAccent">#F7AF42</item>
+</style>
+    <style name="Choose" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#F7AF42</item>
+        <item name="colorPrimaryDark">#F7AF42</item>
+        <item name="colorAccent">#F7AF42</item>
+    </style>
+</resources>

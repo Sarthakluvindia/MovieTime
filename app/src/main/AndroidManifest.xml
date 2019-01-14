@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.movietime.sarthak.movietime">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".payment" />
+        <activity android:name=".SelectPage" />
+        <activity android:name=".SeatSelection" />
+        <activity android:name=".TrailerSynopsis" />
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Signup" />
+        <activity
+            android:name=".ChoosingSeats"
+            android:theme="@style/Choose" />
+        <activity android:name=".Details"></activity>
+    </application>
+
+</manifest>

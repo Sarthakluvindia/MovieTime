@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.movietime.sarthak.movietime.payment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:backgroundTint="?android:attr/textColorSecondaryInverseNoDisable"
+        android:gravity="center"
+        android:text="PAY INVOICE"
+        android:textColor="#000"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/pay1" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="Payment Amount"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="Card Number"
+
+        android:textSize="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/card"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:inputType="number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="Expiry Date"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/expDate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:ems="10"
+        android:inputType="date"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:textSize="25dp"
+        android:text="Security Code"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/sec"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="numberPassword"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="Postal Code"/>
+    <EditText
+        android:id="@+id/postcode"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="number"/>
+
+    <ImageButton
+        android:id="@+id/payme"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:scaleType="center"
+        android:backgroundTint="#fff"
+        app:srcCompat="@drawable/pay4" />
+
+
+</LinearLayout>
